@@ -7,7 +7,7 @@ import s from "./AppBar.module.css";
 export default function AppBar({ navItems, logoImg, minimized = false }) {
   const [isMinim, setIsMinim] = useState(minimized);
   const toggle = () => setIsMinim((state) => !state);
-
+  console.log(logoImg);
   return (
     <div className={`${s.appbar} ${isMinim ? s.minimized : ""}`}>
       <div className={s.logoContainer}>

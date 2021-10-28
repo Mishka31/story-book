@@ -12,5 +12,5 @@ const Template = (args) => <Logo {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   imageUrl:
-    "https://cdn-icons.flaticon.com/png/512/2202/premium/2202112.png?token=exp=1635369244~hmac=331aa59cf2c330370104207a96b23bd7",
+    "https://cdn.pixabay.com/photo/2015/03/04/22/35/head-659651_960_720.png",
 };
