@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-family: "Architects Daughter", cursive;
+}
+.item:hover,
+.item:focus {
+  background-color: rgb(236, 236, 236);
+}
+.item:hover svg,
+.item:focus svg {
+  color: red;
+}
+.item svg {
+  margin-right: 10px;
+}
